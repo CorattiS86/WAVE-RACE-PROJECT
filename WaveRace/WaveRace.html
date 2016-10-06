@@ -1,0 +1,76 @@
+<html>
+    <head> 
+        <title> CORATTI Project </title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="../Babylon.js-master/dist/babylon.2.4.js"> </script>
+        <script src="../Babylon.js-master/materialsLibrary/dist/babylon.waterMaterial.js"> </script>
+        
+        <script src="WaveRace.js" type="application/javascript"> </script>
+        
+    </head>
+    
+    <body>
+        <ul class="combar">
+        <li>Instructions</li>
+        <li> W >> Go Forward<br>
+             A  >> Steer Left<br>
+             D  >> Steer Right<br>
+             S  >> Extra Drive<br></li>
+            <li>[c] Change Camera </li>
+            
+    </ul>
+    
+		<center>
+			<h2> WAVE RACE </h2>
+			<div>
+			  <hr/>
+			  <canvas id="CorattiCanvas" width=1000 height=500 style="border:1px solid gray;"></canvas>
+			  <hr/>
+			</div>
+			
+			<hr/>
+		</center>
+         
+        
+    </body>
+    
+    <script>       
+        
+        window.addEventListener('DOMContentLoaded', main());
+        window.addEventListener('resize', function()
+                                          {
+                                                engine.resize();   
+                                          });
+        
+        window.addEventListener('keydown', function(event) 
+                                    {
+                                        if( event.keyCode == 87)  
+                                            moveScooter(  1.0, 0.00); 
+                                        if( event.keyCode == 83)  
+                                            moveScooter(  2.0, 0.05);
+                                        if( event.keyCode == 65)  
+                                            steeringScooter( -0.1, -0.2 );
+                                        if( event.keyCode == 68) 
+                                            steeringScooter(  0.1, 0.2);
+                                        if( event.keyCode == 67) 
+                                            changeCam();
+
+                                    });
+        
+        window.addEventListener('keyup',  function(event) 
+                                    {
+                                        if( event.keyCode == 87)  
+                                            moveScooter(  -0.2, -0.02 ); 
+                                        if( event.keyCode == 83)  
+                                            moveScooter(  -0.2, -0.02);
+                                        if( event.keyCode == 65)  
+                                            steeringScooter( 0.0, 0.05);   
+                                        if( event.keyCode == 68) 
+                                            steeringScooter( 0.0, -0.05);
+
+                                    });
+       
+        
+    </script>
+    
+</html>

@@ -1,0 +1,50 @@
+body {
+    padding-left: 4em;
+    font-family: Georgia, "Times New Roman",
+    Times, serif;
+    color: #3333aa;
+    background-color: #eeeeff ;
+    width: 40em;}
+ul.combar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 14em;
+    left: 68em;
+    width: 15em }
+ul.combar li {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.6em;
+}
+
+ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 4em;
+    left: 13em;
+    width: 15em }
+
+h1 {
+    font-family: Helvetica, Geneva, Arial,
+    SunSans-Regular, sans-serif }
+
+ul.navbar li {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.6em;
+}
+ul.navbar a {
+    text-decoration: none }
+a:link {
+    color: blue }
+a:visited {
+    color: purple }
+address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted }
+
