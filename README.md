@@ -1,6 +1,8 @@
 # WAVE-RACE-PROJECT
 This is a work for Computer Graphics (Master Engineering Computer Science). 
+
 To see the slide of presentation [slides Wave Race](http://www.slideshare.net/StefanoCoratti/wave-race-project)
+
 I was inspired by an old video game -> Wave Race 64.
 
 It is developed using Babylon libraries from:
