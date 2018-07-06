@@ -29,3 +29,12 @@ PS: the browser requires the permissions to access to file (in this case require
              
     FIREFOX:  1. write in the URL bar "about:config"
               2. set the field "security.fileuri.strict_origin_policy = false"
+              
+Author
+-----------------
+Coratti Stefano
+
+
+coratti.s86@gmail.com
+
+https://www.linkedin.com/in/stefano-coratti-83005a85/
