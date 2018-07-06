@@ -1,7 +1,8 @@
-# WAVE-RACE-PROJECT
+![alt text](https://github.com/CorattiS86/WAVE-RACE-PROJECT/blob/master/wave-race-project.jpg)
+
 This is a work for Computer Graphics (Master Engineering Computer Science). 
 
-To see the slide of presentation [slides Wave Race](http://www.slideshare.net/StefanoCoratti/wave-race-project)
+To see the slides of presentation [slides Wave Race](http://www.slideshare.net/StefanoCoratti/wave-race-project)
 
 I was inspired by an old video game -> Wave Race 64.
 
