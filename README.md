@@ -37,4 +37,4 @@ Coratti Stefano
 
 coratti.s86@gmail.com
 
-https://www.linkedin.com/in/stefano-coratti-83005a85/
+https://www.linkedin.com/in/stefano-coratti-3147ab189/
